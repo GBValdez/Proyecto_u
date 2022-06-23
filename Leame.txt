@@ -1,0 +1,6 @@
+Hola bienvenido
+Soy Gabriel Valdez 
+El archivo principal es el Index.HTML, puedes abrirlo haciendo doble clic o haciendo
+- clic derecho sobre Index.HTML
+- Abrir con
+- El navegador de tu preferencia

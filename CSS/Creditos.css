@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+.fondo{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top,black,rgb(15, 15, 15));
+    z-index: -100;
+}
+
+
+.Contenedor li{
+    height: 10%;
+    margin-right: 20px;
+    text-decoration: none;
+    display: inline;
+    font-size: 150%;
+    transition: 0.15s;
+}
+.Contenedor li:hover{
+    border-bottom: 3px solid white;
+    transition: 0.15s;
+    font-size: 170%;
+}
+header{
+    display: flex;
+    justify-content:flex-end;
+    font-family:Forte;
+}
+audio{
+    left: 50%;
+}
+h1{
+    font-size: 300%;
+    text-align: center;
+}
+.Creditos{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Creditos h2{
+    font-size: 200%;
+    margin-bottom: 5px;
+}
+.Creditos li, p{
+    font-size: 120%;
+    margin-bottom: 5px;
+}
+
