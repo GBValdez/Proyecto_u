@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     color: white;
-    font-family:Forte;
+    font-family: 'Lobster', cursive;
 }
 a{
     text-decoration: none;
@@ -78,8 +78,15 @@ header{
     z-index: -1;
 }
 
-.Critica{
+.Container{
     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+}
+.Critica{
     width: 100%;
     text-align: center ;
 }

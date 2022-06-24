@@ -6,8 +6,8 @@ console.log("Hola");
 
 function Crear_cuadros(){
   var Tabla = document.querySelector("table");
-  var f=20;
-  var c=30;
+  var f=10;
+  var c=10;
   for(i=0;i<f;i++){
 
   var fila= document.createElement("tr");
