@@ -5,6 +5,10 @@
         <meta name="keywords" content="Curso,Bueno,Malo">
         <link rel="stylesheet" type="text/css" href="CSS/normalize.css"> 
         <link rel="stylesheet" type="text/css" href="CSS/Curso.css" >
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Titan+One&display=swap" rel="stylesheet">
         <title></title>
     </head>
     <body class="Verde">
@@ -24,8 +28,10 @@
             </nav>
         
         </header>
+        <div class="Container">
 
-        <section class="Foco" id="Bueno">
+
+        <section class="Desfocado" id="Bueno">
             <div class="Cuerpo" >
             <h2>
                 Lo mejor del Curso
@@ -40,7 +46,8 @@
                 <p>Coloque el cursor sobre la barra de tareas o en la pestaña de la pagina para ver lo malo.</p>
             </article>
         </section>
-        <section class="Desfocado" id="Malo">
+
+        <section class="Foco" id="Malo">
             <div class="Cuerpo">
             <h2>
                 Lo peor del Curso
@@ -53,6 +60,7 @@
                 <p>Ponga el cursor del mouse sobre la pagina para ver lo bueno</p>
             </article>
         </section>
+    </div>
         <div id="particles-js"> </div>
         <script src="Script/particles.min.js"></script>
         <script src="Script/Curso.js"></script>

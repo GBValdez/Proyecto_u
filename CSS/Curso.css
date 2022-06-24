@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     color: white;
-    font-family:Forte;
+    font-family: 'Lobster', cursive;
 }
 a{
     text-decoration: none;
@@ -54,12 +54,22 @@ header{
 
 .Desfocado{
     visibility: hidden;
+    position: absolute;
 }
-.Foco .Cuerpo{
+.Container{
+    width: 100%;
+    height: 80vh;
     position: fixed;
-    top: 25%;
-    left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.Foco{
+    width: 70%;
+    position: absolute;
+}
+
 .Foco .Cuerpo h2{
     text-align: center;
     font-size: 250%;
@@ -70,10 +80,11 @@ header{
     margin-bottom: 10px;
 }
 .Foco p{
-    font-size: 200%;
+    font-size: 190%;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
+    left: 0;
 }
 
