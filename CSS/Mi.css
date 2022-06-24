@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     color: white;
+    font-family: 'Lobster', cursive;
 }
 a{
     text-decoration: none;
@@ -32,6 +33,8 @@ audio{
     z-index: -10;
     transform: scale(-1,1);
 }
+
+
 .Contenedor{
     display: inline-block;
     height: 100%;
@@ -54,15 +57,20 @@ audio{
 }
 .Desfocado{
     visibility: hidden;
-    position: fixed;
+    position: absolute;
 }
-
-.Foco{
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -11;
     width: 100%;
+
+}
+.Foco{
+    width: 70%;
     text-align: center;
-    position: fixed;
     visibility: visible;
-    top: 40px;
 }
 
 .Foco h2{
@@ -70,10 +78,7 @@ audio{
     margin-bottom: 15px;
     font-family:Forte;
 }
-.Foto{
-    width: 50%;
-    height: 50%;
-}
+
 
 
 .Cuerpo{
@@ -85,7 +90,7 @@ audio{
 .Texto{
     font-family: Aharoni;
     font-size: 100%;
-    width: 600px;
+
     text-align: justify;
 }
 
@@ -93,14 +98,17 @@ audio{
     text-decoration: underline;
 }
 .Imagenes{
-    height: 50vh;
-    width: 40%;
+    width: 100%;
     background-color: black;  
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    margin-left: 20px;
+    margin: 20px;
     border: 10px solid  black;
     border-radius: 10px;
+}
+.Foto{
+    width: 400px;
 }
 
 #Yo .Texto, #Anime .Texto{
